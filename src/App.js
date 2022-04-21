@@ -13,9 +13,10 @@ function App() {
         <p>{moment().format('dddd')}, {moment().format('LL')}</p>
 
         <br/>
-        <br/>
 
+        <div className='Forecast'>
         <Forecast />
+        </div>
       </main>
     </div>
   );

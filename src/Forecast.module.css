@@ -5,7 +5,9 @@
     border-radius: 3px;
     display: block;
     margin: 5px auto;
+
   }
+
   .TextInput:focus {
     outline: none;
     border-color: #719ECE;

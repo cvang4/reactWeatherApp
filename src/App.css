@@ -4,7 +4,7 @@
   flex-direction: column;
   min-height: 100vh;
   color: white;
-  font-size: 20px;
+  font-size: 22px;
   background-image: url(https://i.pinimg.com/originals/ba/84/2b/ba842bc0808d3433e83b6964e451cabe.jpg);
   background-size: cover;
   animation: fadeIn 5s;
@@ -74,4 +74,8 @@ main {
 @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
+}
+
+.Forecast {
+  color: #F6E57B;
 }
