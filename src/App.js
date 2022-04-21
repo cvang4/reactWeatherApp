@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
+import moment from 'moment';
 import './App.css';
+import Forecast from './components/Forecast';
 
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main>
+        <h1>Weather in Aincrad</h1>
+        <p>{moment().format('h:mm a')}</p>
+        <p>{moment().format('dddd')}, {moment().format('LL')}</p>
+
+        <br/>
+        <br/>
+
+        <Forecast />
+      </main>
     </div>
   );
 }
